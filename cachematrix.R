@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...) {
     return(m)
   }
   data<-x$get()
-  m<-slove(data)
+  m<-slove(data) ## can't be found
   x$setinverse(m)
   m
 }
