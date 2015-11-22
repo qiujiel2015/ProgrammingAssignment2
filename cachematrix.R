@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...) {
     return(m)
   }
   data<-x$get()
-  m<-solve(data) 
+  m<-solve(data)  ## wrong spelling
   x$setinverse(m)
   m
 }
